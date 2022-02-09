@@ -1,12 +1,16 @@
-# iOS
+---
+coverY: 0
+---
+
+# 🍄 Avantis iOS
 
 ## Architecture
 
-### Main architecture (Clean Swift)
+### Application main architecture (Clean Swift)
 
-![ ](assets/clean-full-picture.png)
+![](assets/clean-full-picture.png)
 
-### Component architecture (MVVM)
+### Card component architecture (MVVM)
 
 ![](assets/mvvm.png)
 
@@ -28,7 +32,7 @@
 
 ![](assets/pipeline-pr.png)
 
-### Pipeline 2: On push request (Merged)&#x20;
+### Pipeline 2: On push request (Merged)
 
 ![](assets/pipeline-push.png)
 
@@ -61,8 +65,6 @@
 ![](assets/firebase-crashlytics.png)
 
 ## Analytics: Mixpanel
-
-&#x20;
 
 ![](assets/mixpanel.png)
 
