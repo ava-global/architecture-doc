@@ -1,46 +1,86 @@
 # iOS
+
 ## Architecture
-    - Main architecture (Clean Swift)
-    - Component architecture (MVVM)
+
+![](<../.gitbook/assets/Screen Shot 2565-02-09 at 14.01.07.png>)
+
+```
+- Main architecture (Clean Swift)
+- Component architecture (MVVM)
+```
+
 ## CI / CD
-    - Build Pipeline
-    - Release & Tags
+
+```
+- Build Pipeline
+- Release & Tags
+```
+
 ## Dependency management
-    - Cartage
-    - Cocoapods
-    - Swift Package Manager
-## Tests 
-    - Unit tests
-    - UI tests
-    - Code coverage (Xcode)
+
+```
+- Cartage
+- Cocoapods
+- Swift Package Manager
+```
+
+## Tests
+
+```
+- Unit tests
+- UI tests
+- Code coverage (Xcode)
+```
+
 ## Crash monitoring
-    - Firebase    
+
+```
+- Firebase    
+```
+
 ## Analytics
-    - Mixpanel
+
+```
+- Mixpanel
+```
+
 ## App performance monitoring
+
 ## Security
+
 ## Xcode Template
-    - Scene
-        - NameViewController.swift
-        - NamePresenter.swift
-        - NameInteractor.swift
-        - NameRouter.swift
-        - NameFacade.swift
-        - NameSceneModel.swift
-        - NameSceneWorker.swift
-        - Name.storybroad
+
+```
+- Scene
+    - NameViewController.swift
+    - NamePresenter.swift
+    - NameInteractor.swift
+    - NameRouter.swift
+    - NameFacade.swift
+    - NameSceneModel.swift
+    - NameSceneWorker.swift
+    - Name.storybroad
+```
+
 ## Design Language
-    - Colors
-    - Typography 
-        - Font
-        - Weight
-        - Style
-    - UI Components
-        - UI Element
-            - UIButton ??
-    - Line 
-    - Spacer
-    - Theme
-    - Lanuage
-## ETC 
-    - Post Man (API Live Document)
+
+```
+- Colors
+- Typography 
+    - Font
+    - Weight
+    - Style
+- UI Components
+    - UI Element
+        - UIButton ??
+- Line 
+- Spacer
+- Theme
+- Lanuage
+```
+
+## ETC
+
+```
+- Post Man (API Live Document)
+```
