@@ -68,9 +68,7 @@
 
 ## App performance monitoring
 
-
-
-xxxxxxx
+![](assets/firebase-performance.png)
 
 ## Security
 
