@@ -93,9 +93,9 @@ GitHub Actions is a **continuous integration and continuous delivery** (CI/CD) p
 
 ![](assets/dependency.png)
 
-## Tests
+## Tests monitor: codecov
 
-* Test monitor (codecov)
+![](https://about.codecov.io/wp-content/themes/codecov/assets/templates/home/devops.svg)
 
 ![](assets/codecov.png)
 
