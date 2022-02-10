@@ -124,17 +124,13 @@ Gain insight into how your app performs from your users' point of view with a br
 
 
 
-### Capture health and performance of network requests
+**Capture health and performance of network requests**
 
-<p><img align="left" width="300" style="margin-right:20px;" src="https://firebase.google.com/images/products/performance/performance-2.png">
+![](https://firebase.google.com/images/products/performance/performance-2.png)
 
 Stay on top of your app's dependencies, network latencies, and errors affecting your users with automated monitoring of HTTP/S requests. You can also customize URL patterns to closely monitor response times, success rates, and payload sizes of your critical requests.
-</p>
 
-<br/>
-<br/>
-
-### Reduce troubleshooting and resolution time
+**Reduce troubleshooting and resolution time**
 
 ![](https://firebase.google.com/images/products/performance/performance-3.jpg)
 
