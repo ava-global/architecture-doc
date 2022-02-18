@@ -1,6 +1,6 @@
 # Avantis Infrastructure
 
-![](assets/Avantis%20Infrastructure.jpg)
+![](assets/avantis-techstack_Backend-Infra.png)
 
 ## **Infrastructure**
   - **AWS** - We use AWS as our cloud infrastructure provider with components below
