@@ -8,7 +8,7 @@ coverY: 0
 
 ### Application main architecture (Clean Swift)
 
-![](assets/clean-full-picture.png?v=1)
+![](assets/clean-full-picture-2.png?v=2)
 
 The Clean Swift architecture is derived from the Clean Architecture proposed by Uncle Bob. They share many common concepts such as the components, boundaries, and models.
 
@@ -16,7 +16,7 @@ The Clean Swift architecture is derived from the Clean Architecture proposed by 
 
 The view controller, interactor, and presenter are the three main components of Clean Swift. They act as input and output to one another as shown in the following diagram.
 
-![](assets/vip.png?v=1)
+![](assets/vip-2.png?v=2)
 
 #### View Controller
 
