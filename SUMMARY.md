@@ -1,4 +1,6 @@
 # Table of contents
 
-* [🤖 Android](README.md)
-* [🍄 iOS](iOS/README.md)
+* [🚀 Backend](README.md)
+* [📲 Mobile](mobile/README.md)
+  * [🍄 iOS](mobile/ios.md)
+  * [🤖 Android](mobile/readme.md)

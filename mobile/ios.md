@@ -50,7 +50,7 @@ View Model – After the presenter receives the response from the interactor, it
 
 ### Card component architecture (MVVM)
 
-![](assets/mvvm.png)
+![](../iOS/assets/mvvm.png)
 
 ## CI / CD
 
@@ -64,26 +64,26 @@ View Model – After the presenter receives the response from the interactor, it
 
 ### Build Pipeline
 
-![](assets/pipeline-categories.png)
+![](../iOS/assets/pipeline-categories.png)
 
 ### Pipeline State
 
-![](assets/pipeline-state.png)
+![](../iOS/assets/pipeline-state.png)
 
 ### Pipeline 1: On push request (PR)
 
-![](assets/pipeline-pr.png)
+![](../iOS/assets/pipeline-pr.png)
 
 ### Pipeline 2: On push request (Merged)
 
-![](assets/pipeline-push.png)
+![](../iOS/assets/pipeline-push.png)
 
 ### Release & Tags
 
 * Changed Log / Features Note
 * Tags (Versioning symmetric https://semver.org)
 
-![](assets/release-tag.png)
+![](../iOS/assets/release-tag.png)
 
 ## Dependency management
 
@@ -91,30 +91,30 @@ View Model – After the presenter receives the response from the interactor, it
 * Cocoapods
 * Swift Package Manager
 
-![](assets/dependency.png)
+![](../iOS/assets/dependency.png)
 
 ## Tests monitor: codecov
 
-![](assets/codecov.png)
+![](../iOS/assets/codecov.png)
 
 * UI tests
 * Code coverage (Xcode)
 
 ## Crash monitoring: Firebase Crashlytics
 
-> Never miss a critical app crash with realtime alerts for new issues. Crashes are prioritized by impact on actual users so you know how to best fix bugs. Build Fast For Any Device. Customize Your App. Boost App Engagement. Accelerate Development. ![](assets/firebase-crashlytics.png)
+> Never miss a critical app crash with realtime alerts for new issues. Crashes are prioritized by impact on actual users so you know how to best fix bugs. Build Fast For Any Device. Customize Your App. Boost App Engagement. Accelerate Development. ![](../iOS/assets/firebase-crashlytics.png)
 
 ## Analytics: Mixpanel
 
 > Mixpanel is a business analytics service company. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them. Data collected is used to build custom reports and measure user engagement and retention.
 
-![](assets/mixpanel.png)
+![](../iOS/assets/mixpanel.png)
 
 ## App performance monitoring
 
 > Firebase Performance Monitoring, a real time app performance monitoring tool, helps you keep a close eye on your app as you roll out new features or make configuration changes. Performance Monitoring also gives you control over your performance data with a customizable dashboard that makes it easy to focus on your most important metrics.
 
-![](assets/firebase-performance.png)
+![](../iOS/assets/firebase-performance.png)
 
 **Keep your app fast and responsive**
 
@@ -138,13 +138,13 @@ Understand the context in which performance issues take place and more easily ad
 
 > The Secure Enclave is a dedicated secure subsystem integrated into Apple systems on chip (SoCs). The Secure Enclave is isolated from the main processor to provide an extra layer of security and is designed to keep sensitive user data secure even when the Application Processor kernel becomes compromised. It follows the same design principles as the SoC does—a boot ROM to establish a hardware root of trust, an AES engine for efficient and secure cryptographic operations, and protected memory. Although the Secure Enclave doesn’t include storage, it has a mechanism to store information securely on attached storage separate from the NAND flash storage that’s used by the Application Processor and operating system.
 
-![](assets/enclave.png)
+![](../iOS/assets/enclave.png)
 
 ## Xcode Template
 
 > XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal. In this tutorial I will walk you through preparing a custom template for MVVM project architecture.
 
-![](assets/xcode-2.png) ![](assets/xcode-1.png)
+![](../iOS/assets/xcode-2.png) ![](../iOS/assets/xcode-1.png)
 
 ### Clean Architecture Template
 
