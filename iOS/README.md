@@ -2,13 +2,13 @@
 coverY: 0
 ---
 
-# 🍄 Avantis iOS
+# 🍄 iOS
 
 ## Architecture
 
 ### Application main architecture (Clean Swift)
 
-![](assets/clean-full-picture-2.png?v=2)
+![](../.gitbook/assets/clean-full-picture-2.png)
 
 The Clean Swift architecture is derived from the Clean Architecture proposed by Uncle Bob. They share many common concepts such as the components, boundaries, and models.
 
@@ -16,9 +16,7 @@ The Clean Swift architecture is derived from the Clean Architecture proposed by 
 
 The view controller, interactor, and presenter are the three main components of Clean Swift. They act as input and output to one another as shown in the following diagram.
 
-![](assets/vip-2.png?v=2)
-
-#### View Controller
+![](../.gitbook/assets/vip-2.png)
 
 The view controller’s output connects to the interactor’s input. The interactor’s output connects to the presenter’s input. The presenter’s output connects to the view controller’s input. We’ll create special objects to pass data through the boundaries between the components. This allows us to decouple the underlying data models from the components. These special objects consists of only primitive types such as Int, Double, and String. We can create structs, classes, or enums to represent the data but there should only be primitive types inside these containing entities.
 
@@ -57,12 +55,13 @@ View Model – After the presenter receives the response from the interactor, it
 ## CI / CD
 
 ### Github Actions for **CI**
->GitHub Actions is a **continuous integration and continuous delivery** (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
+
+> GitHub Actions is a **continuous integration and continuous delivery** (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
 
 ### Fastlane Action for **CD**
->Automate your development and release process
-fastlane is an open source platform aimed at simplifying Android and iOS deployment.
-fastlane lets you automate every aspect of your development and release workflow.
+
+> Automate your development and release process fastlane is an open source platform aimed at simplifying Android and iOS deployment. fastlane lets you automate every aspect of your development and release workflow.
+
 ### Build Pipeline
 
 ![](assets/pipeline-categories.png)
@@ -102,30 +101,32 @@ fastlane lets you automate every aspect of your development and release workflow
 * Code coverage (Xcode)
 
 ## Crash monitoring: Firebase Crashlytics
->Never miss a critical app crash with realtime alerts for new issues. Crashes are prioritized by impact on actual users so you know how to best fix bugs. Build Fast For Any Device. Customize Your App. Boost App Engagement. Accelerate Development.
-![](assets/firebase-crashlytics.png)
+
+> Never miss a critical app crash with realtime alerts for new issues. Crashes are prioritized by impact on actual users so you know how to best fix bugs. Build Fast For Any Device. Customize Your App. Boost App Engagement. Accelerate Development. ![](assets/firebase-crashlytics.png)
 
 ## Analytics: Mixpanel
->Mixpanel is a business analytics service company. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them. Data collected is used to build custom reports and measure user engagement and retention.
+
+> Mixpanel is a business analytics service company. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them. Data collected is used to build custom reports and measure user engagement and retention.
 
 ![](assets/mixpanel.png)
 
 ## App performance monitoring
->Firebase Performance Monitoring, a real time app performance monitoring tool, helps you keep a close eye on your app as you roll out new features or make configuration changes. Performance Monitoring also gives you control over your performance data with a customizable dashboard that makes it easy to focus on your most important metrics.
+
+> Firebase Performance Monitoring, a real time app performance monitoring tool, helps you keep a close eye on your app as you roll out new features or make configuration changes. Performance Monitoring also gives you control over your performance data with a customizable dashboard that makes it easy to focus on your most important metrics.
 
 ![](assets/firebase-performance.png)
 
 **Keep your app fast and responsive**
->Gain insight into how your app performs from your users' point of view with a breakdown of trace and network data into dimensions like app version, country, device, and network type.
+
+> Gain insight into how your app performs from your users' point of view with a breakdown of trace and network data into dimensions like app version, country, device, and network type.
 
 ![](https://firebase.google.com/images/products/performance/performance-1.jpg)
-
 
 **Capture health and performance of network requests**
 
 ![](https://firebase.google.com/images/products/performance/performance-2.png)
 
->Stay on top of your app's dependencies, network latencies, and errors affecting your users with automated monitoring of HTTP/S requests. You can also customize URL patterns to closely monitor response times, success rates, and payload sizes of your critical requests.
+> Stay on top of your app's dependencies, network latencies, and errors affecting your users with automated monitoring of HTTP/S requests. You can also customize URL patterns to closely monitor response times, success rates, and payload sizes of your critical requests.
 
 **Reduce troubleshooting and resolution time**
 
@@ -134,12 +135,14 @@ fastlane lets you automate every aspect of your development and release workflow
 Understand the context in which performance issues take place and more easily address them using custom traces. You can also make use of automated traces, such as app startup time.
 
 ## Security
->The Secure Enclave is a dedicated secure subsystem integrated into Apple systems on chip (SoCs). The Secure Enclave is isolated from the main processor to provide an extra layer of security and is designed to keep sensitive user data secure even when the Application Processor kernel becomes compromised. It follows the same design principles as the SoC does—a boot ROM to establish a hardware root of trust, an AES engine for efficient and secure cryptographic operations, and protected memory. Although the Secure Enclave doesn’t include storage, it has a mechanism to store information securely on attached storage separate from the NAND flash storage that’s used by the Application Processor and operating system.
+
+> The Secure Enclave is a dedicated secure subsystem integrated into Apple systems on chip (SoCs). The Secure Enclave is isolated from the main processor to provide an extra layer of security and is designed to keep sensitive user data secure even when the Application Processor kernel becomes compromised. It follows the same design principles as the SoC does—a boot ROM to establish a hardware root of trust, an AES engine for efficient and secure cryptographic operations, and protected memory. Although the Secure Enclave doesn’t include storage, it has a mechanism to store information securely on attached storage separate from the NAND flash storage that’s used by the Application Processor and operating system.
 
 ![](assets/enclave.png)
 
 ## Xcode Template
->XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal. In this tutorial I will walk you through preparing a custom template for MVVM project architecture.
+
+> XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal. In this tutorial I will walk you through preparing a custom template for MVVM project architecture.
 
 ![](assets/xcode-2.png) ![](assets/xcode-1.png)
 
