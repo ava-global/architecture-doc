@@ -137,22 +137,32 @@ A pragmatic and lightweight dependency injection framework for Kotlin developers
 
 ## Engage products
 ### Firebase Analytics
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/analytics.png)
+
 Google Analytics helps you understand how people use your web, Apple, or Android app. The SDK automatically captures a number of events and user properties and also allows you to define your own custom events to measure the things that uniquely matter to your business. Once the data is captured, it's available in a dashboard through the Firebase console. This dashboard provides detailed insights about your data — from summary data such as active users and demographics, to more detailed data such as identifying your most purchased items.
 
 ### Optimize app experience with Firebase A/B Testing and Firebase Remote Config
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/a-b-testing.png)
+
 Firebase A/B Testing helps you optimize your app experience by making it easy to run, analyze, and scale product and marketing experiments. It gives you the power to test changes to your app’s UI, features, or engagement campaigns to see if they actually move the needle on your key metrics (like revenue and retention) before you roll them out widely. A/B Testing works with FCM so you can test different marketing messages, and with Remote Config so you can test changes within your app.
 
 ## Release & Monitor Application
 ### Firebase Crashlytics
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20Crashlytics.png)
+
 Firebase Crashlytics is a lightweight, realtime crash reporter that helps you track, prioritize, and fix stability issues that erode your app quality. Crashlytics saves you troubleshooting time by intelligently grouping crashes and highlighting the circumstances that lead up to them. Find out if a particular crash is impacting a lot of users. Get alerts when an issue suddenly increases in severity. Figure out which lines of code are causing crashes.
 
 ### Firebase Performance Monitoring
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20Performance%20Monitoring.png)
+
 Firebase Performance Monitoring is a service that helps you to gain insight into the performance characteristics of your Apple, Android, and web apps. You use the Performance Monitoring SDK to collect performance data from your app, then review and analyze that data in the Firebase console. Performance Monitoring helps you to understand in real time where the performance of your app can be improved so that you can use that information to fix performance issues.
 
 ### Firebase Test Lab
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20Test%20Lab.png)
 Firebase Test Lab lets you test your app on a range of devices and configurations. This Get Started guide provides an implementation path for you to follow, as well as an introduction to Test Lab's Android offerings.
 
 ### Firebase App Distribution
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20App%20Distribution.png)
 Firebase App Distribution makes distributing your apps to trusted testers painless. By getting your apps onto testers' devices quickly, you can get feedback early and often. And if you use Crashlytics in your apps, you’ll automatically get stability metrics for all your builds, so you know when you’re ready to ship.
 
 ### Ktlint format
@@ -167,6 +177,7 @@ ktlint is a single binary with both linter & formatter included. All you need is
 JaCoCo should provide the standard technology for code coverage analysis in Java VM based environments. The focus is on providing a lightweight, flexible and well-documented library for integration with various build and development tools.
 
 ### Test apps on Android
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Test%20apps%20on%20Android.png)
 Testing your app is an integral part of the app development process. By running tests against your app consistently, you can verify your app's correctness, functional behavior, and usability before you release it publicly.
 
 Testing also offers the following advantages:
