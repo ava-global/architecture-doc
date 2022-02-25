@@ -1,6 +1,8 @@
 ## Programming languages
 ### Kotlin
 
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/kotlin.png)
+
 ### Why is Android development Kotlin-first?
 
 We reviewed feedback that came directly from developers at conferences, our Customer Advisory Board (CAB), Google Developers Experts (GDE), and through our developer research. Many developers already enjoy using Kotlin, and the request for more Kotlin support was clear. Here’s what developers appreciate about writing in Kotlin:
@@ -12,6 +14,7 @@ We reviewed feedback that came directly from developers at conferences, our Cust
 - ---
 ## Development environment
 ### Android Studio
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/android-studio.png)
 
 Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA . On top of IntelliJ's powerful code editor and developer tools, Android Studio offers even more features that enhance your productivity when building Android apps, such as:
 
@@ -27,6 +30,8 @@ Android Studio is the official Integrated Development Environment (IDE) for Andr
 - ---
 ## App architecture
 ### Android Architecture component
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/avantis-techstack_Android-architecture-component.png)
+
 #### View Layer
 
 The role of the View layer (or _presentation layer_) is to display the application data on the screen. Whenever the data changes, either due to user interaction (such as pressing a button) or external input (such as a network response), the UI should update to reflect the changes.
@@ -49,6 +54,7 @@ The data layer of an app contains the _business logic_. The business logic is wh
 The data layer is made of _repositories_ that each can contain zero to many _data sources_. You should create a repository class for each different type of data you handle in your app. For example, you might create a `MoviesRepository` class for data related to movies, or a `PaymentsRepository` class for data related to payments.
 
 ### Modular Architecture
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/avantis-techstack_Android-modular-architecture.png)
 
 In Google I/0 19, they talked about how to create a modular Android Application architecture. They emphasize the fact that developers should be segregated to specialise in different aspects when developing the application in order to provide a clean and organised application.
 
@@ -69,6 +75,8 @@ The Android App Bundle packaging concept involves the greater library modules as
 Working with dynamic feature modules brings a few challenges even if you use on-demand delivery. One of these challenges is with navigation. For example, we have the MainActivity and want to navigate to the AboutActivity.
 
 ### Android Jetpack
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/jetpack.png)
+
 Jetpack is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices so that developers can focus on the code they care about.
 
 **View Binding**
@@ -82,6 +90,8 @@ In most cases, view binding replaces `findViewById`.
 The library uses the builder pattern to provide safe default settings for the following security levels: Strong security that balances great encryption and good performance. This level of security is appropriate for consumer apps, such as banking and chat apps, as well as enterprise apps that perform certificate revocation checking. Maximum security. This level of security is appropriate for apps that require a hardware-backed keystore and user presence for providing key access. This guide shows how to work with the Security library's recommended security configurations, as well as how to read and write encrypted data that's stored in files and shared preferences easily and safely.
 
 ### Jetpack Compose
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/jetpack_compose.png)
+
 Jetpack Compose is Android’s modern toolkit for building native UI. It simplifies and accelerates UI development on Android bringing your apps to life with less code, powerful tools, and intuitive Kotlin APIs. It makes building Android UI faster and easier. While creating Compose we worked with different partners who experienced all of these benefits first hand and shared some of their takeaways with us.
 
 #### Less code
@@ -101,6 +111,8 @@ Compose is compatible with all your existing code so you can call Compose code f
 Compose enables you to create beautiful apps with direct access to the Android platform APIs and built-in support for Material Design, Dark theme, animations, and more.
 
 ### Kotlin coroutines on Android
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/coroutine.png)
+
 A _coroutine_ is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. [Coroutines](https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html) were added to Kotlin in version 1.3 and are based on established concepts from other languages.
 
 On Android, coroutines help to manage long-running tasks that might otherwise block the main thread and cause your app to become unresponsive. Over 50% of professional developers who use coroutines have reported seeing increased productivity. This topic describes how you can use Kotlin coroutines to address these problems, enabling you to write cleaner and more concise app code.
@@ -117,6 +129,8 @@ Coroutines is our recommended solution for asynchronous programming on Android. 
 
 ## Dependency injection in Android
 ### Koin
+![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/koin.png)
+
 A pragmatic and lightweight dependency injection framework for Kotlin developers.
 
 ---
