@@ -2,5 +2,5 @@
 
 * [🚀 Backend](Backend/README.md)
 * [📲 Mobile](mobile/README.md)
-  * [🍄 iOS](mobile/ios.md)
-  * [🤖 Android](mobile/readme.md)
+  * [🍄 iOS](iOS/README.md)
+  * [🤖 Android](Android/README.md)
