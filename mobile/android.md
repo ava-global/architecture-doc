@@ -14,7 +14,7 @@ We reviewed feedback that came directly from developers at conferences, our Cust
 - ---
 ## Development environment
 ### Android Studio
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/android-studio.png)
+![](../Android/assets/android-studio.png)
 
 Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA . On top of IntelliJ's powerful code editor and developer tools, Android Studio offers even more features that enhance your productivity when building Android apps, such as:
 
@@ -30,7 +30,7 @@ Android Studio is the official Integrated Development Environment (IDE) for Andr
 - ---
 ## App architecture
 ### Android Architecture component
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/avantis-techstack_Android-architecture-component.png)
+![](../Android/assets/avantis-techstack_Android-architecture-component.png)
 
 #### View Layer
 
@@ -54,7 +54,7 @@ The data layer of an app contains the _business logic_. The business logic is wh
 The data layer is made of _repositories_ that each can contain zero to many _data sources_. You should create a repository class for each different type of data you handle in your app. For example, you might create a `MoviesRepository` class for data related to movies, or a `PaymentsRepository` class for data related to payments.
 
 ### Modular Architecture
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/avantis-techstack_Android-modular-architecture.png)
+![](../Android/assets/avantis-techstack_Android-modular-architecture.png)
 
 In Google I/0 19, they talked about how to create a modular Android Application architecture. They emphasize the fact that developers should be segregated to specialise in different aspects when developing the application in order to provide a clean and organised application.
 
@@ -75,7 +75,7 @@ The Android App Bundle packaging concept involves the greater library modules as
 Working with dynamic feature modules brings a few challenges even if you use on-demand delivery. One of these challenges is with navigation. For example, we have the MainActivity and want to navigate to the AboutActivity.
 
 ### Android Jetpack
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/jetpack.png)
+![](../Android/assets/jetpack.png)
 
 Jetpack is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices so that developers can focus on the code they care about.
 
@@ -90,7 +90,7 @@ In most cases, view binding replaces `findViewById`.
 The library uses the builder pattern to provide safe default settings for the following security levels: Strong security that balances great encryption and good performance. This level of security is appropriate for consumer apps, such as banking and chat apps, as well as enterprise apps that perform certificate revocation checking. Maximum security. This level of security is appropriate for apps that require a hardware-backed keystore and user presence for providing key access. This guide shows how to work with the Security library's recommended security configurations, as well as how to read and write encrypted data that's stored in files and shared preferences easily and safely.
 
 ### Jetpack Compose
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/jetpack_compose.png)
+![](../Android/assets/jetpack_compose.png)
 
 Jetpack Compose is Android’s modern toolkit for building native UI. It simplifies and accelerates UI development on Android bringing your apps to life with less code, powerful tools, and intuitive Kotlin APIs. It makes building Android UI faster and easier. While creating Compose we worked with different partners who experienced all of these benefits first hand and shared some of their takeaways with us.
 
@@ -111,7 +111,7 @@ Compose is compatible with all your existing code so you can call Compose code f
 Compose enables you to create beautiful apps with direct access to the Android platform APIs and built-in support for Material Design, Dark theme, animations, and more.
 
 ### Kotlin coroutines on Android
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/coroutine.png)
+![](../Android/assets/coroutine.png)
 
 A _coroutine_ is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. [Coroutines](https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html) were added to Kotlin in version 1.3 and are based on established concepts from other languages.
 
@@ -129,7 +129,7 @@ Coroutines is our recommended solution for asynchronous programming on Android. 
 
 ## Dependency injection in Android
 ### Koin
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/koin.png)
+![](../Android/assets/koin.png)
 
 A pragmatic and lightweight dependency injection framework for Kotlin developers.
 
@@ -137,32 +137,32 @@ A pragmatic and lightweight dependency injection framework for Kotlin developers
 
 ## Engage products
 ### Firebase Analytics
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/analytics.png)
+![](../Android/assets/analytics.png)
 
 Google Analytics helps you understand how people use your web, Apple, or Android app. The SDK automatically captures a number of events and user properties and also allows you to define your own custom events to measure the things that uniquely matter to your business. Once the data is captured, it's available in a dashboard through the Firebase console. This dashboard provides detailed insights about your data — from summary data such as active users and demographics, to more detailed data such as identifying your most purchased items.
 
 ### Optimize app experience with Firebase A/B Testing and Firebase Remote Config
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/a-b-testing.png)
+![](../Android/assets/a-b-testing.png)
 
 Firebase A/B Testing helps you optimize your app experience by making it easy to run, analyze, and scale product and marketing experiments. It gives you the power to test changes to your app’s UI, features, or engagement campaigns to see if they actually move the needle on your key metrics (like revenue and retention) before you roll them out widely. A/B Testing works with FCM so you can test different marketing messages, and with Remote Config so you can test changes within your app.
 
 ## Release & Monitor Application
 ### Firebase Crashlytics
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20Crashlytics.png)
+![](../Android/assets/Firebase%20Crashlytics.png)
 
 Firebase Crashlytics is a lightweight, realtime crash reporter that helps you track, prioritize, and fix stability issues that erode your app quality. Crashlytics saves you troubleshooting time by intelligently grouping crashes and highlighting the circumstances that lead up to them. Find out if a particular crash is impacting a lot of users. Get alerts when an issue suddenly increases in severity. Figure out which lines of code are causing crashes.
 
 ### Firebase Performance Monitoring
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20Performance%20Monitoring.png)
+![](../Android/assets/Firebase%20Performance%20Monitoring.png)
 
 Firebase Performance Monitoring is a service that helps you to gain insight into the performance characteristics of your Apple, Android, and web apps. You use the Performance Monitoring SDK to collect performance data from your app, then review and analyze that data in the Firebase console. Performance Monitoring helps you to understand in real time where the performance of your app can be improved so that you can use that information to fix performance issues.
 
 ### Firebase Test Lab
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20Test%20Lab.png)
+![](../Android/assets/Firebase%20Test%20Lab.png)
 Firebase Test Lab lets you test your app on a range of devices and configurations. This Get Started guide provides an implementation path for you to follow, as well as an introduction to Test Lab's Android offerings.
 
 ### Firebase App Distribution
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Firebase%20App%20Distribution.png)
+![](../Android/assets/Firebase%20App%20Distribution.png)
 Firebase App Distribution makes distributing your apps to trusted testers painless. By getting your apps onto testers' devices quickly, you can get feedback early and often. And if you use Crashlytics in your apps, you’ll automatically get stability metrics for all your builds, so you know when you’re ready to ship.
 
 ### Ktlint format
@@ -177,7 +177,7 @@ ktlint is a single binary with both linter & formatter included. All you need is
 JaCoCo should provide the standard technology for code coverage analysis in Java VM based environments. The focus is on providing a lightweight, flexible and well-documented library for integration with various build and development tools.
 
 ### Test apps on Android
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/Test%20apps%20on%20Android.png)
+![](../Android/assets/Test%20apps%20on%20Android.png)
 Testing your app is an integral part of the app development process. By running tests against your app consistently, you can verify your app's correctness, functional behavior, and usability before you release it publicly.
 
 Testing also offers the following advantages:
