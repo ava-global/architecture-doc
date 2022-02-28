@@ -1,7 +1,7 @@
 ## Programming languages
 ### Kotlin
 
-![](https://github.com/ava-global/architecture-doc/blob/main/Android/assets/kotlin.png)
+![](../Android/assets/kotlin.png)
 
 ### Why is Android development Kotlin-first?
 
