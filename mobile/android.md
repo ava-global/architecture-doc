@@ -159,10 +159,12 @@ Firebase Performance Monitoring is a service that helps you to gain insight into
 
 ### Firebase Test Lab
 ![](../Android/assets/Firebase%20Test%20Lab.png)
+
 Firebase Test Lab lets you test your app on a range of devices and configurations. This Get Started guide provides an implementation path for you to follow, as well as an introduction to Test Lab's Android offerings.
 
 ### Firebase App Distribution
 ![](../Android/assets/Firebase%20App%20Distribution.png)
+
 Firebase App Distribution makes distributing your apps to trusted testers painless. By getting your apps onto testers' devices quickly, you can get feedback early and often. And if you use Crashlytics in your apps, you’ll automatically get stability metrics for all your builds, so you know when you’re ready to ship.
 
 ### Ktlint format
@@ -178,6 +180,7 @@ JaCoCo should provide the standard technology for code coverage analysis in Java
 
 ### Test apps on Android
 ![](../Android/assets/Test%20apps%20on%20Android.png)
+
 Testing your app is an integral part of the app development process. By running tests against your app consistently, you can verify your app's correctness, functional behavior, and usability before you release it publicly.
 
 Testing also offers the following advantages:
